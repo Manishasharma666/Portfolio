@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Portfolio</title>
+</head>
+<body>
+    <div class="main">
+        <nav>
+            <h2 class="logo">Portfo<span>lio<span></h2>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#Contact-Me">Contact Me</a></li>
+            </ul>
+            <a href="https://github.com/Manishasharma666" class="btn">Github</a>
+        </nav>
+        <div class="content">
+            <h4>Hello, my name is</h4>
+            <h1>Manisha<span> Sharma<span></h1>
+            <h3>I am a Programmer, Web Developer and a Student.</h3>
+            <div class="newletter">
+                <form >
+                    <input type="email" name="email" id="mail" placeholder="Enter Your Email">
+                    <input type="submit" name="submit" value="Let's start">
+                </form>
+
+            </div>
+
+        </div>
+    </div>
+    
+    <section class="About" id="about">
+        <div class="submain">
+            <img src="image.jpg" alt="image">
+            <div class="about-text">
+                <h2>About Me</h2>
+                <h5>Developer<span> & Programmer<span></h5>
+                <p>I am a student currently pursuing my Masters in Computer Applications(MCA).
+                    I do development and also programming. Before MCA i have done my graduation in Physics.
+                    I did google data analytics certification course and from that i got interested in coding and pursued MCA.
+                </p>
+
+            </div>
+        </div>
+    </section>
+
+    <div class="skills" id="skills">
+        <div class="title">
+            <h2>Skills</h2>
+        </div>
+        <div class="box">
+            <div class="images">
+                <img src="https://img.icons8.com/color/2x/java-coffee-cup-logo.png" alt="java">
+                <img src="https://img.icons8.com/color/2x/python.png" alt="python">
+                <img src="https://img.icons8.com/color/2x/c-plus-plus-logo.png" alt="cpp">
+                <img src="https://img.icons8.com/color/2x/html-5.png" alt="html">
+                <img src="https://img.icons8.com/color/2x/css3.png" alt="css">
+                <img src="https://img.icons8.com/fluency/2x/r-project.png" alt="R">
+                <img src="https://seeklogo.com/images/T/tableau-software-logo-654D12C9BF-seeklogo.com.png" alt="tableau">
+            </div>
+        </div>
+    </div>
+
+    <div class="project-heading">
+        <h2>Projects</h2>
+    </div>
+    <div class="project" id="project">
+        <div class="card" >
+            <div class="card-body">
+              <h5 class="card-title">Covid-19 Data Analysis</h5>
+              <p class="card-text">Analyzed the Covid-19 dataset using tableau to find trends in covid cases and vaccination status in Asia Continent.</p>
+              <a href="https://public.tableau.com/app/profile/manisha.sharma8721/viz/Covid_16500455425620/Dashboard1" class="button">Click</a>
+            </div>
+          </div>
+
+        <div class="card" >
+            <div class="card-body">
+              <h5 class="card-title">Retail Data Analysis</h5>
+              <p class="card-text">Analyzed the retail dataset and found useful insights using python library pandas, numpy and matplotlib.</p>
+              <a href="https://github.com/Manishasharma666/RetailDataAnalysis/blob/main/RetailDataAnalysis.ipynb" class="button">Click</a>
+            </div>
+          </div>
+
+        <div class="card" >
+            <div class="card-body">
+              <h5 class="card-title">FIFA20 Data Analysis</h5>
+              <p class="card-text">Analyzed the FIFA20 dataset to make some predictions and found useful insights using python library pandas, numpy and matplotlib. </p>
+              <a href="https://github.com/Manishasharma666/FifaDataAnalysis/blob/main/FIFA_GameDataAnalytics.ipynb" class="button">Click</a>
+            </div>
+          </div>
+
+        <div class="card" >
+            <div class="card-body">
+              <h5 class="card-title">Google Capstone Project</h5>
+              <p class="card-text">Analyze the fitbit fitness tracker dataset in google data analytics certification course using R on Kaggle.</p>
+              <a href="https://www.kaggle.com/code/manishasharma31/google-capstone-project-fitbit-fitness-tracker" class="button">Click</a>
+            </div>
+          </div>
+
+    </div>
+
+    <!-- Contact section -->
+
+    <div class="Contact-me", id="Contact-Me">
+        <h2>Contact Me</h2>
+        <form class="form">      
+            <input name="name" type="text" class="feedback-input" placeholder="Name" />   
+            <input name="email" type="text" class="feedback-input" placeholder="Email" />
+            <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+            <input type="submit" value="SUBMIT"/>
+        </form>
+    </div>
+</body>
+</html>
