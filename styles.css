@@ -152,23 +152,25 @@ h4{
 .skills{
     background: #171515;
     width: 100%;
-    padding: 0px 0px;
+    max-height: fit-content;
 }
 .title h2{
     color: white;
     font-size: 75px;
     width: 1130px;
     text-align: center;
+    padding-top: 100px;
 }
 .box{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    min-height: 400px;
+    min-height: 150px;
+    margin-top: 0%;
 }
 .images{
     height: 120px;
-    background: #191919;
+    background: #201f1f;
     border-radius: 20px;
     margin: 0px;
     position: relative;
@@ -176,7 +178,7 @@ h4{
 .project-heading{
     background: #171515;
     width: 100%;
-    padding-top: 0px;
+    padding-top: 100px;
     padding-bottom: 20px;
 }
 .project-heading h2{
@@ -184,6 +186,7 @@ h4{
     font-size: 75px;
     width: 1130px;
     text-align: center;   
+    margin-left: 50px;
 }
 .project{
     background: #171515;
@@ -195,16 +198,17 @@ h4{
     height: 365px;
     width: 335px;
     padding: 20px 35px;
-    background: #191919;
+    background: #201f1f;
     border-radius: 20px;
     margin: 15px;
+    margin-left: 50px;
     position: relative;
     overflow: hidden;
     text-align: center;
     display: flex;  
     flex-direction: row;
     justify-content: center; 
-     align-items:  center;
+    align-items:  center;
 }
 .card-text{
     color: #fcfc;
@@ -257,7 +261,7 @@ form { max-width:420px;
     font-size: 18px;
     border-radius: 5px;
     line-height: 22px;
-    background-color: #191919;
+    background-color: #201f1f;
     transition: all 0.3s;
     padding: 13px;
     margin-bottom: 15px;
